@@ -236,7 +236,7 @@ int main(int argc, char* argv[]) {
         std::cout << "Данные найдены в кэше:\n";
         printSchedule(data, showTransfers);
     } else {
-        // Усли данных нет в кэше: запрос к API
+        // Если данных нет в кэше: запрос к API
         YandexScheduleAPI api("62194743-92da-49a5-91aa-cfdeba0b682d");
 
         try {
