@@ -18,9 +18,9 @@ The application uses [Yandex Schedule API](https://yandex.ru/dev/rasp/doc/ru/). 
 
 ## Example Usage
 
-./RouteBuilder "to Nizhniy Novgorod" 2025-03-01
+./bin/RouteBuilder "to Nizhniy Novgorod" 2025-03-01
 
-./RouteBuilder "to Saint Petersburg" 2025-03-01
+./bin/RouteBuilder "to Saint Petersburg" 2025-03-01
 
 ## Key-Features
 
